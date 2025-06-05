@@ -1,6 +1,8 @@
 _oldstuff
 dependency
 
+data/
+cookie_data/
 .vscode
 
 *.csv
@@ -73,3 +75,5 @@ dask-worker-space/
 tmp.yaml
 
 crawl_results
+
+consentchk_data.tar.gz
