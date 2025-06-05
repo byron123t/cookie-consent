@@ -170,7 +170,7 @@ def get_out_root_dir(exper_date, consent):
     out_root_dir_name = 'pref_menu_scan'
     if consent:
         out_root_dir_name += '_accept'
-    return create_data_dir2(f'{exper_date}/{out_root_dir_name}')
+    return create_data_dir2(f'{exper_date}/{out_root_dir_name}', True)
 
 def clear_dir(out_dir: Path):
     """Remove data files, safer than shutil.rmtree."""
