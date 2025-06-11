@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 from itertools import combinations
 
 
+plt.rcParams.update({'pdf.fonttype': 42})
+plt.rcParams.update({'ps.fonttype': 42})
 plt.rcParams.update({'font.size': 16})
 
 with open('data/cmp_ui_data.json') as f:

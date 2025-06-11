@@ -7,6 +7,8 @@ import scikit_posthocs as sp
 
 
 # Define regions and conditions
+plt.rcParams.update({'pdf.fonttype': 42})
+plt.rcParams.update({'ps.fonttype': 42})
 plt.rcParams.update({'font.size': 16})
 
 regions = ['ca', 'eu', 'uk', 'au', 'us', 'sg', 'can', 'za']
